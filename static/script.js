@@ -19,7 +19,7 @@ const music = document.getElementById("bgMusic");
 let score = 0;
 let spawned = 0;
 let gameOver = false;
-const finishScore = 16;
+const finishScore = 8;
 let gameStarted = false;
 
 
@@ -155,6 +155,7 @@ restartBtn.addEventListener("click", startGame);
 startBtn.addEventListener('click', startGame);
 
 // показываем загрузку после полной загрузки страницы, только если горизонтально
+
 
 
 
